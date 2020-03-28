@@ -22,6 +22,15 @@
             },
             "cflags_cc": [
                 "-std=c++17"
+            ],
+            "copies": [
+                {
+                    "destination": "./build/Release",
+                    "files": [
+                        "<(module_root_dir)/webview/dll/x64/webview.dll",
+                        "<(module_root_dir)/webview/dll/x64/WebView2Loader.dll"
+                    ]
+                }
             ]
         }
     ]
