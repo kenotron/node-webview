@@ -3,7 +3,8 @@
         {
             "target_name": "NativeExtension",
             "sources": [
-                "ext.cc"
+                "ext.cc",
+                "node_webview.cc"
             ],
             "include_dirs": [
                 "<!(node -e \"require('nan')\")",
